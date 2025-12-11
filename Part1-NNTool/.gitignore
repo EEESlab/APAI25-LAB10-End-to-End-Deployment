@@ -1,0 +1,7 @@
+# Exclude the directory 'Execute_on_target'
+Execute_on_target/
+
+# Exclude all JSON files
+*.json
+out_pred.jpg
+
