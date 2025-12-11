@@ -48,8 +48,9 @@ code .
 4. As the folder opens, click on "Re-open in container" to install and run the Docker image reserved to this lab. 
 5. Set up Deeploy with: 
 ```
+git config --global --add safe.directory /workspaces/APAI25-LAB10-End-to-End-Deployment/Part2-Deeploy
 git submodule update --init --recursive
-cd Deeploy && pip install -e . && cd ..
+cd Part2-Deeploy && pip install -e . && cd ..
 ```
 6. Enjoy the assignment :)
 
