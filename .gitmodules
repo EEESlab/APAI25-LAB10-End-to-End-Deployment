@@ -1,4 +1,4 @@
-[submodule "Deeploy"]
+[submodule "Part2-Deeploy"]
 	path = Part2-Deeploy
 	url = https://github.com/FrancescoConti/Deeploy
 	branch = unitn25-exercise
