@@ -15,12 +15,6 @@ Use Virtuale, upload only the assignment file named as follows:
 `LAB#_APAI_name.pdf`
 
 
-
-
-
-
-
-
 # Part1: Deploying a CNN on GAP9 with NNTool 
 
 This first tutorial is under the [Part1-NNTool](./Part1-NNTool/) folder. This task is done only in LAB1, on the GAP9 boards. 
@@ -51,7 +45,7 @@ cd APAI25-LAB10-End-to-End-Deployment/
 ```
 code .
 ```
-4. As the folder opens, click on "Re-open in container" to install and run the the Docker image reserved to this lab, that contains Deeploy. 
+4. As the folder opens, click on "Re-open in container" to install and run the Docker image reserved to this lab. 
 5. Set up Deeploy with: 
 ```
 git submodule update --init --recursive
@@ -62,4 +56,4 @@ cd Deeploy && pip install -e . && cd ..
 
 ## Doing the assignment and running the code
 
-To this end, please follow the instructions in the respective [readme](./Part2-Deeploy/UNITN25.md).
+To this end, please follow the instructions in the [assignment](docs/assignment.pdf).
