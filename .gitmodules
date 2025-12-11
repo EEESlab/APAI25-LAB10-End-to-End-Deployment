@@ -1,0 +1,11 @@
+[submodule "deeploy-newop-tutorial"]
+	path = deeploy-newop-tutorial
+	url = https://github.com/pulp-unibo/deeploy-newop-tutorial
+[submodule "Deeploy"]
+	path = Deeploy
+	url = https://github.com/FrancescoConti/Deeploy
+	branch = unitn25-exercise
+[submodule "DeepQuant"]
+	path = DeepQuant
+	url = https://github.com/FrancescoConti/DeepQuant
+	branch = unitn25-exercise

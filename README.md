@@ -52,7 +52,13 @@ cd APAI25-LAB10-End-to-End-Deployment/
 code .
 ```
 4. As the folder opens, click on "Re-open in container" to install and run the the Docker image reserved to this lab, that contains Deeploy. 
-5. Enjoy the assignment :) 
+5. Set up Deeploy with: 
+```
+git submodule update --init --recursive
+cd Deeploy && pip install -e . && cd ..
+```
+6. Enjoy the assignment :)
+
 
 ## Doing the assignment and running the code
 
